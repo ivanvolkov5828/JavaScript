@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Корзина</title>
+  <style>
+    .one {
+  background: #FFF4ED;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.one h1 {
+  font-family: 'Righteous', cursive;
+  position: relative;
+  color: #3CA1D9;
+  display: inline-block;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  font-size: 3em;
+  padding: 11px 60px;
+  margin: 0;
+  line-height: 1;
+}
+
+.one h1:before, .one h1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  background: repeating-linear-gradient(180deg, transparent, transparent 2px, #3CA1D9 2px, #3CA1D9 4px);
+}
+
+.one h1:before {left: 0;}
+.one h1:after {right: 0;}
+@media (max-width: 420px) {
+  .one h1 {font-size: 2em;}
+}
+
+.li_style{
+  background: #FFF4ED;
+  padding: 50px 150px;
+  width: 165px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-family: 'Righteous', cursive;
+  color: #3CA1D9;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.fourth{
+  background: #FFF4ED;
+  padding: 50px 150px;
+  height: 100px;
+  width: 400px;
+  margin-bottom: 10px;
+  font-family: 'Righteous', cursive;
+  color: #3CA1D9;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  font-size: 2em;
+  margin-left: 40px;
+  padding-right: 25px;
+  padding-left: 40px;
+  margin-top: 10px;
+}
+  </style>
+</head>
+<body>
+<script src="task_2.js"></script>
+</body>
+</html>
